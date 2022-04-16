@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: theme-keep/hexo-deploy-github-pages-action@master
+      uses: flytam/hexo-deploy-github-pages-action@master
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
