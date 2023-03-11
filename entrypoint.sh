@@ -62,11 +62,21 @@ git init
 
 ls -al
 
-git config user.name "blog-bot"
-git config user.email "blog-bot@github.com"
+echo '>>> Config git config...'
+
+git config --global user.name "blog-bot"
+git config --global user.email "blog-bot@github.com"
+
+
+echo '>>> Config git remote add...'
+
 git remote add origin "${REPOSITORY_PATH}"
 
+echo '>>> Config git checkout...'
+
 git checkout --orphan $TARGET_BRANCH
+
+echo '>>> Config git add...'
 
 git add .
 
