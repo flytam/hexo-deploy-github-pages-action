@@ -59,6 +59,9 @@ echo ">>> Config git ..."
 
 # Configures Git.
 git init
+
+ls -al
+
 git config user.name "blog-bot"
 git config user.email "blog-bot@github.com"
 git remote add origin "${REPOSITORY_PATH}"
