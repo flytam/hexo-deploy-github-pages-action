@@ -64,6 +64,7 @@ ls -al
 
 echo '>>> Config git config...'
 
+git config --global --add safe.directory /github/workspace/public
 git config --global user.name "flytam"
 git config --global user.email "tanjiahui2015@foxmail.com"
 
