@@ -64,8 +64,8 @@ ls -al
 
 echo '>>> Config git config...'
 
-git config --global user.name "blog-bot"
-git config --global user.email "blog-bot@github.com"
+git config --global user.name "flytam"
+git config --global user.email "tanjiahui2015@foxmail.com"
 
 
 echo '>>> Config git remote add...'
