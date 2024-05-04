@@ -65,8 +65,8 @@ ls -al
 echo '>>> Config git config...'
 
 git config --global --add safe.directory /github/workspace/public
-git config --global user.name "${GITHUB_ACTOR}"
-git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+git config --global user.name "github-actions[bot]"
+git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
 
 echo '>>> Config git remote add...'
